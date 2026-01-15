@@ -1,0 +1,16 @@
+{
+  "name": "healthtrack",
+  "version": "1.0.0",
+  "description": "AI-Powered Health & Calorie Tracking Application",
+  "private": true,
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm start",
+    "dev": "echo 'Please run dev:backend and dev:frontend in separate terminals'",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["health", "calorie-tracker", "nutrition", "fitness", "react", "nodejs"],
+  "author": "Agent 5",
+  "license": "MIT"
+}
